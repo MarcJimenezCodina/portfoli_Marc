@@ -1,0 +1,346 @@
+#fons {
+    position: relative;
+    z-index: 0;
+    background-repeat: no-repeat;
+    background-image: url(../MEDIA/fons2.jpg);
+}
+
+#pantalla {
+    z-index: 3;
+    margin-left: -8px;
+    position: absolute;
+}
+
+.moviment {
+    margin-top: 400px;
+}
+
+#pantallareves {
+    z-index: 3;
+    margin-left: -8px;
+    position: absolute;
+
+}
+
+.movimentreves {
+    margin-top: -38px;
+}
+
+#on {
+    position: absolute;
+    z-index: 4;
+    width: 100px;
+    height: 114px;
+    top: 340px;
+    left: 459px;
+    background-image: url(../MEDIA/on.png);
+    cursor: pointer;
+}
+
+#on:hover {
+    background-image: url(../MEDIA/on_verd.png);
+}
+
+.movimentfinal {
+    animation-name: movimentprincipal;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes movimentprincipal {
+    0% {
+        margin-top: 400px;
+    }
+
+    100% {
+        margin-top: 450px;
+    }
+}
+
+.movimentfinalreves {
+    animation-name: movimentprincipalreves;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes movimentprincipalreves {
+    0% {
+        margin-top: -38px;
+    }
+    100% {
+        margin-top: -100px;
+    }
+}
+
+#portfoli {
+    position: absolute;
+    z-index: 2;
+    width: 200px;
+    height: 34px;
+    top: 380px;
+    left: 740px;
+    background-image: url(../MEDIA/portfolilogo.png);
+}
+
+
+#contacte {
+    position: absolute;
+    z-index: 2;
+    width: 200px;
+    height: 35px;
+    top: 380px;
+    left: 20px;
+    background-image: url(../MEDIA/contactelogo.png);
+}
+
+#fonscontacte {
+    position: fixed;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-image: url(../MEDIA/fons1.jpg);
+}
+
+#prossecinggo {
+    position: absolute;
+    background-image: url(../MEDIA/drib-processing.png);
+    z-index: 1;
+    width: 300px;
+    height: 225px;
+    top: 300px;
+    left: 150px;
+    transition-duration: 1s;
+}
+
+#htmlgo {
+    position: absolute;
+    background-image: url(../MEDIA/progrmacio%20logo.png);
+    z-index: 1;
+    width: 300px;
+    height: 176px;
+    top: 330px;
+    left: 600px;
+    transition-duration: 1s;
+}
+
+#prossecinggo:hover {
+    transform: scale(1.1);
+}
+
+#htmlgo:hover {
+    transform: scale(1.1);
+}
+
+#fonsprojectes {
+    position: relative;
+    z-index: 0;
+    background-repeat: no-repeat;
+    background-image: url(../MEDIA/fons%20projectes.jpg);
+}
+
+#titoltreballs {
+    position: absolute;
+    font-style: italic;
+    font-size: 72px;
+    color: aliceblue;
+    top: 50px;
+    left: 350px;
+}
+
+.home {
+    z-index: 1;
+    position: absolute;
+    background-image: url(../MEDIA/botohome.png);
+    width: 100px;
+    height: 100px;
+    top: 20px;
+    left: 10px;
+}
+
+#fonsprossecing {
+    position: relative;
+    z-index: 0;
+    background-repeat: no-repeat;
+    background-image: url(../MEDIA/fondo%20processing.jpg);
+}
+
+#ponggo {
+    z-index: 1;
+    position: absolute;
+    background-image: url(../MEDIA/pongfons.jpg);
+    width: 300px;
+    height: 230px;
+    top: 300px;
+    left: 120px;
+    transition-duration: 1s;
+}
+
+#spacego {
+    z-index: 1;
+    position: absolute;
+    background-image: url(../MEDIA/space_invader.png);
+    width: 300px;
+    height: 194px;
+    top: 320px;
+    left: 600px;
+    transition-duration: 1s;
+}
+
+#spacego:hover {
+    transform: scale(1.1);
+}
+
+#ponggo:hover {
+    transform: scale(1.1);
+}
+
+#processing {
+    z-index: 1;
+    position: absolute;
+    background-image: url(../MEDIA/processing3-logo.png);
+    width: 100px;
+    height: 100px;
+    top: 150px;
+    left: 460px;
+}
+
+#titolprocessing {
+    z-index: 1;
+    position: absolute;
+    font-style: italic;
+    font-size: 72px;
+    color: aliceblue;
+    top: 50px;
+    left: 300px;
+}
+
+#fletxa {
+    z-index: 1;
+    position: absolute;
+    background-image: url(../MEDIA/flecha.png);
+    width: 100px;
+    height: 80px;
+    top: 10px;
+    left: 10px;
+    transition-duration: 1s;
+}
+
+#fletxa:hover {
+    transform: scale(1.1);
+}
+
+#museuxoco {
+    z-index: 1;
+    position: absolute;
+    background-image: url(../MEDIA/museulogo.jpg);
+    width: 300px;
+    height: 224px;
+    top: 450px;
+    left: 600px;
+   transition-duration: 1s;
+}
+#museuxoco:hover{
+    transform: scale(1.1);
+}
+#fonshtml {
+    z-index: 0;
+    position: relative;
+    z-index: 0;
+    background-repeat: no-repeat;
+    background-image: url(../MEDIA/fonshtml.jpg);
+}
+#lordthering {
+    z-index: 1;
+    position: absolute;
+    background-image: url(../MEDIA/The%20Lord%20of%20the%20Ring.jpg);
+    width: 300px;
+    height: 225px;
+    top: 450px;
+    left: 150px;
+   transition-duration: 1s;
+}
+#lordthering:hover{
+    transform: scale(1.1);
+}
+#urbanrivals {
+    z-index: 1;
+    position: absolute;
+    background-image: url(../MEDIA/urbanrivals.jpg);
+    width: 300px;
+    height: 169px;
+    top: 230px;
+    left: 150px;
+   transition-duration: 1s;
+}
+#urbanrivals:hover{
+    transform: scale(1.1);
+}
+#undiadepesca {
+    z-index: 1;
+    position: absolute;
+    background-image: url(../MEDIA/pesca.jpg);
+    width: 300px;
+    height: 169px;
+    top: 230px;
+    left: 600px;
+   transition-duration: 1s;
+}
+#undiadepesca:hover{
+    transform: scale(1.1);
+}
+#logohtml {
+    z-index: 1;
+    position: absolute;
+    background-image: url(../MEDIA/html-logo.png);
+    width: 200px;
+    height: 76px;
+    top: 20px;
+    left: 420px;
+}
+#titolhtml {
+    z-index: 1;
+    position: absolute;
+    font-style: italic;
+    font-size: 60px;
+    color: aliceblue;
+    top: 100px;
+    left: 180px;
+}
+#informacio {
+    z-index: 1;
+    position: absolute;
+    background-image: url(../MEDIA/contacte.png);
+    width: 800px;
+    height: 344px;
+    top: 220px;
+    left: 50px;
+}
+#titolcontacte {
+    z-index: 1;
+    position: absolute;
+    font-style:italic;
+    font-size: 70px;
+    color: aliceblue;
+    top: 50px;
+    left: 350px;
+}
+video{
+    position: absolute;
+    width: 900px;
+    top: 200px;
+    left: 40px;
+    
+}
+#titolspace {
+    z-index: 1;
+    position: absolute;
+    background-image: url(../MEDIA/logotipo.png);
+    width: 300px;
+    height: 128px;
+    top: 30px;
+    left: 350px;
+}
+
